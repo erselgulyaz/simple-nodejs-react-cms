@@ -1,0 +1,11 @@
+.wrapper {
+    @apply max-w-[500px];
+}
+
+.formActions > * {
+    @apply mr-[10px];
+}
+
+.formField {
+    @apply mb-[15px];
+}

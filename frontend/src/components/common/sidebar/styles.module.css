@@ -1,0 +1,12 @@
+.wrapper {
+    @apply w-[300px] shrink-0 flex flex-col;
+}
+
+.wrapper > * {
+    @apply w-[300px] box-border text-white ;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+.logoWrap {
+    @apply flex items-center justify-center h-[100px] text-[40px] leading-[48px] font-bold text-white;
+}
